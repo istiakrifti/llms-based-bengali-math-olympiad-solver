@@ -14,7 +14,7 @@ The task involves solving mathematical problems written in Bengali, with LaTeX-s
 The **TIRagent** approach employs a combination of advanced models and hyperparameters to tackle complex mathematical reasoning in Bengali.
 
 #### Model & Framework Used:
-   - **Numina Model:** A state-of-the-art model designed for advanced mathematical problem-solving in Bengali.
+   - **Numina Model:** A state-of-the-art model designed for advanced mathematical problem-solving.
    - **vLLM (Virtual Large Language Model):** A library used to manage large-scale computations and optimize performance across multiple GPUs.
 
 #### Training & Evaluation:
@@ -25,10 +25,10 @@ The **TIRagent** approach employs a combination of advanced models and hyperpara
 The **AgenticRAG** approach enhances **TIRagent** by combining the power of information retrieval and generation.
 
 #### Tools Used:
-   - **LangChain, ChatGroq, HuggingFace Embeddings, DuckDuckGoSearch, TavilySearch, Chroma VectorStore:** These tools are used for document retrieval and integrating external knowledge to solve math problems.
+   - **LangChain, HuggingFace Embeddings, Faiss VectorStore:** These tools are used for document retrieval and integrating external knowledge to solve math problems.
 
 #### Workflow:
-   - External knowledge is retrieved from search engines and used to generate solutions with the help of model like **Numina**
+   - External knowledge is retrieved from search engines and used to generate solutions.
 
 ### 3. **Translation Approach**
 
