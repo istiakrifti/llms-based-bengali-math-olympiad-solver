@@ -80,7 +80,7 @@ To train and test the model using the **TIRagent**, **AgenticRAG**, and **Transl
 1. Open the notebooks:
    ```bash
    jupyter notebook TIRapproach.ipynb
-   jupyter notebook AgenticRagWithllama-3.ipynb
+   jupyter notebook RAGapproach.ipynb
    jupyter notebook NormalTranslatingApproach.ipynb
    ```
 
